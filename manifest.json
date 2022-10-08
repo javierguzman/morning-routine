@@ -18,7 +18,10 @@
   },
 
   "background": {
-    "scripts": ["morning.js"]
+    "scripts": [
+      "browser-polyfill.min.js",
+      "morning.js"
+    ]
   },
 
   "options_ui": {
