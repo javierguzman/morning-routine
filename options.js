@@ -35,7 +35,7 @@ function showFeedback(feedbackText) {
   const feedback = document.querySelector('.options-feedback');
   feedback.style.display = 'block';
   const feedbackParagraph = document.querySelector('#options-feedback-text');
-  feedbackParagraph.innerHTML = feedbackText;
+  feedbackParagraph.innerText = feedbackText;
 }
 
 function restoreOptions() {

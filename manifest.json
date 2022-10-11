@@ -7,25 +7,25 @@
   "homepage_url": "https://github.com/javierguzman/morning-routine",
 
   "icons": {
-    "48": "../icons/coffee-cup-48.png"
+    "48": "icons/coffee-cup-48.png"
   },
 
   "browser_action": {
     "default_icon": {
-      "48": "../icons/coffee-cup-48.png"
+      "48": "icons/coffee-cup-48.png"
     },
     "default_title": "Morning Routine"
   },
 
   "background": {
     "scripts": [
-      "../browser-polyfill.min.js",
-      "../morning.js"
+      "browser-polyfill.min.js",
+      "morning.js"
     ]
   },
 
   "options_ui": {
-    "page": "../options.html"
+    "page": "options.html"
   },
 
   "permissions": ["storage"],
