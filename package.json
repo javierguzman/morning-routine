@@ -1,0 +1,42 @@
+{
+  "name": "morning-routine",
+  "version": "1.0.0",
+  "description": "A browser extension that open up a bunch of pre-defined tabs on a click",
+  "main": "index.js",
+  "scripts": {
+    "start-firefox": "webpack --watch --progress --config webpack.dev.js --env target=firefox",
+    "start-chrome": "webpack --watch --progress --config webpack.dev.js --env target=chrome",
+    "build-firefox": "webpack --progress --config webpack.prod.js --env target=firefox",
+    "build-chrome": "webpack --progress --config webpack.prod.js --env target=chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierguzman/morning-routine.git"
+  },
+  "type": "module",
+  "keywords": [
+    "extension",
+    "browser",
+    "firefox",
+    "chrome"
+  ],
+  "author": "Javier Guzman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/javierguzman/morning-routine/issues"
+  },
+  "homepage": "https://github.com/javierguzman/morning-routine#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.198",
+    "@types/firefox-webext-browser": "^94.0.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  }
+}

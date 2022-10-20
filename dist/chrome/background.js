@@ -1,0 +1,1 @@
+(()=>{"use strict";const e="undefined"==typeof browser?chrome:browser;(e.browserAction||e.action).onClicked.addListener((function(){e.storage.sync.get("urls").then((function(n){n.urls.forEach((function(n){e.tabs.create({url:n})}))}))}))})();

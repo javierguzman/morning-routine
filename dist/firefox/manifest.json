@@ -19,8 +19,7 @@
 
   "background": {
     "scripts": [
-      "browser-polyfill.min.js",
-      "morning.js"
+      "background.js"
     ]
   },
 

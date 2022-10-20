@@ -1,0 +1,29 @@
+{
+  "description": "This addon lets you to specify a bunch of urls to be open when you click the coffee cup in the morning",
+  "manifest_version": 3,
+  "name": "Morning Routine",
+  "version": "1.0",
+  "author": "Javier Guzman",
+  "homepage_url": "https://github.com/javierguzman/morning-routine",
+
+  "icons": {
+    "48": "icons/coffee-cup-48.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "48": "icons/coffee-cup-48.png"
+    },
+    "default_title": "Morning Routine"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": ["storage"]
+}

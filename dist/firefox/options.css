@@ -1,0 +1,52 @@
+.options-body {
+  background-color: #6f4e37;
+  color: white;
+  height: 100%;
+  margin: 0;
+}
+
+
+.options-form {
+  text-align: center;
+}
+
+.options-textarea {
+  border-radius: 1%;
+  border-color: #5c412d;
+  outline: none;
+}
+.options-textarea:focus {
+  outline: solid #3c2a1d;
+}
+
+.options-label {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.options-save {
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  border-radius: 20%;
+  outline: none;
+  color: #3c2a1d;
+  background-color: #b48868;
+  border-color: #3c2a1d;
+  letter-spacing: 0.2em;
+  line-height: 1.1;
+}
+
+.options-save:hover {
+  scale: 105%;
+}
+
+.options-feedback {
+  display: none;
+}
+
+#options-feedback-text {
+  text-align: center;
+  color: white;
+}
